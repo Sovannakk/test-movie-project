@@ -9,7 +9,7 @@ import { FaChevronLeft, FaChevronRight, FaFilter, FaHeart, FaPlay, FaRegHeart, F
 
 
 
-export default function Home() {
+export default function LandingPageComponent() {
     const [searchQuery, setSearchQuery] = useState<string>('');
     const router = useRouter();
 
