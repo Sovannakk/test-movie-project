@@ -7,8 +7,6 @@ import { useRouter, useSearchParams } from 'next/navigation';
 import { useRef, useState } from 'react';
 import { FaChevronLeft, FaChevronRight, FaFilter, FaHeart, FaPlay, FaRegHeart, FaSearch, FaStar, FaTicketAlt } from 'react-icons/fa';
 
-
-
 export default function LandingPageComponent() {
     const [searchQuery, setSearchQuery] = useState<string>('');
     const router = useRouter();
