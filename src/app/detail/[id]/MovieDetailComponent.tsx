@@ -5,6 +5,7 @@ import { useParams, useRouter } from "next/navigation";
 import { FaArrowLeft, FaClock, FaHeart, FaPlay, FaRegHeart, FaStar, FaTicketAlt, FaUser } from "react-icons/fa";
 
 const MovieDetailComponent = () => {
+    const router = useRouter();
     const params = useParams();
     const id = params?.id as string;
 
@@ -16,7 +17,7 @@ const MovieDetailComponent = () => {
     }
 
     console.log(movie);
-    const router = useRouter();
+  
 
 
 
